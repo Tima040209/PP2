@@ -1,0 +1,12 @@
+s = str(input())
+s=s.replace("?","")
+s=s.replace(",","")
+s=s.replace(":","")
+s=s.replace(".","")
+s=s.replace(";","")
+s=s.replace("!","")
+s=s.split()
+unique_words = sorted(list(set(s)))
+print(len(unique_words))
+for i in unique_words:
+    print(i)   
