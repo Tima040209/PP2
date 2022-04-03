@@ -30,11 +30,11 @@ while running:
         x += 20
 
     if x + 25 >= 500:
-        x = 25
+        x = 26
     if x - 25 <= 0:
         x = 475
-    if y + 25 >= 500:
-        y = 25
+    if y - 25 >= 500:
+        y = 26
     if y - 25 <= 0:
         y = 475
     screen.fill(WHITE)
